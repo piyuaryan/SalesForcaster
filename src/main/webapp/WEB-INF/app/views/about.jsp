@@ -10,7 +10,7 @@
 
                     <h1>About page !</h1>
 
-                    <p>HackFood is developed by Zhufu org for preventing the waste.
+                    <p>RescueCupcakes is product developed and supported oy Zhufu.
                     </p>
 
                     <p>Feel free to contact us:

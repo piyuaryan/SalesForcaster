@@ -13,8 +13,8 @@ public class AppController {
     public ModelAndView welcomePage() {
 
         ModelAndView model = new ModelAndView();
-        model.addObject("title", "HackFood Main Page");
-        model.addObject("message", "Welcome to HackFood !");
+        model.addObject("title", "HackFood");
+        model.addObject("message", "Welcome to RescueCupcakes !");
         model.setViewName("home");
         return model;
 

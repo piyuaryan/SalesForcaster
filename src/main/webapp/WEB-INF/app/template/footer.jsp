@@ -6,7 +6,7 @@
         <div class="copyright-section">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; 2015 HackFood - All Rights Reserved <a href="http://hackfood.myfinance.com.au">HackFood</a>
+                    <p>&copy; 2015 Zhufu - All Rights Reserved <a href="http://hackfood.myfinance.com.au">HackFood</a>
                     </p>
                 </div>
                 <!-- .col-md-6 -->

@@ -5,7 +5,7 @@
     <tiles:putAttribute name="body">
 
         <section id="home">
-            <h1>My HackFood</h1>
+            <h1>HackFood</h1>
         </section>
 
     </tiles:putAttribute>
