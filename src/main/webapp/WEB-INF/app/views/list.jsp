@@ -18,12 +18,9 @@
             </form>
 
             <div class='tab'>
-                <div class="activeTeamsDropdownStyle">
-                    <b>Spring MVC Server Side Pagination ng-grid AngularJS</b>
-                </div>
 
                 <div class="filler"></div>
-                <div class="gridModelStyle" data-ng-grid="gridOptions"></div>
+                <div class="gridModelStyle" style="min-height: 400px;" data-ng-grid="gridOptions"></div>
             </div>
         </div>
     </tiles:putAttribute>
