@@ -19,6 +19,8 @@ public class WeatherAndEvents extends AbstractTimestampEntity {
     private String eventLocation;
     private Date eventDate;
     private Double temperature;
+    private boolean isSchoolHoliday;
+    private boolean isPublicHoliday;
 
     public long getId() {
         return id;
@@ -68,6 +70,22 @@ public class WeatherAndEvents extends AbstractTimestampEntity {
         this.temperature = temperature;
     }
 
+    public boolean isPublicHoliday() {
+        return isPublicHoliday;
+    }
+
+    public void setPublicHoliday(boolean publicHoliday) {
+        isPublicHoliday = publicHoliday;
+    }
+
+    public boolean isSchoolHoliday() {
+        return isSchoolHoliday;
+    }
+
+    public void setSchoolHoliday(boolean schoolHoliday) {
+        isSchoolHoliday = schoolHoliday;
+    }
+
     @Override
     public int hashCode() {
         return Long.valueOf(id).hashCode();
@@ -92,7 +110,7 @@ public class WeatherAndEvents extends AbstractTimestampEntity {
     public String toString() {
         //TODO: Piyush: Return in JSON format
         return "WeeklyProfit [id=" + id + ", [Restaurant=" + restaurant + "], eventName=" + eventName + ", eventLocation=" + eventLocation + ", eventDate=" + eventDate
-                + ", temperature=" + temperature + "]";
+                + ", temperature=" + temperature + ", isSchoolHoliday=" + isSchoolHoliday + ", isPublicHoliday=" + isPublicHoliday + "]";
     }
 
 }
