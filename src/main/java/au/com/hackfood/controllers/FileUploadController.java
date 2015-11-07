@@ -52,4 +52,23 @@ public class FileUploadController {
             return new ResponseEntity<>(json.toString(), headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @RequestMapping(value = "/foodhack", method = RequestMethod.POST)
+    public ResponseEntity<String> saveFoodHackData(@RequestParam("fileTag") String fileTag,
+                                                   @RequestParam("file") MultipartFile file) throws Exception {
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        JSONObject json = new JSONObject();
+        try {
+            importService.saveFoodHackDetails(fileTag, file);
+
+            json.put("status", AppUtils.SUCCESS);
+            return new ResponseEntity<>(json.toString(), headers, HttpStatus.OK);
+        } catch (Exception e) {
+            json.put("status", AppUtils.FAIL);
+            json.put("errorMsg", e.getMessage());
+            return new ResponseEntity<>(json.toString(), headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 }

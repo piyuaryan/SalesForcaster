@@ -68,7 +68,8 @@ app.controller('uploadCtrl', ['$scope', '$http', function ($scope, $http) {
         fd.append('fileTag', $scope.fileTag);
         fd.append('file', $scope.xlsFileObj);
 
-        $http.post('/upload/xls2', fd, config)
+        //$http.post('/upload/xls2', fd, config)
+        $http.post('/upload/foodhack', fd, config)
             //.success(function (data, status, headers, config) {
             .success(function (response, status) {
                 if (response.status == "success") {
