@@ -8,12 +8,12 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
  http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-    <display-name>HackFood WebApp</display-name>
+    <display-name>SalesForecaster WebApp</display-name>
 
     <!-- Configurations for the DispatcherServlet application context (child context) -->
     <!-- Main Servlet -->
     <servlet>
-        <servlet-name>hackfood</servlet-name>
+        <servlet-name>salesforecaster</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -25,7 +25,7 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>hackfood</servlet-name>
+        <servlet-name>salesforecaster</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 

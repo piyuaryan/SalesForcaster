@@ -1,4 +1,4 @@
-var app = angular.module('hackfood', ['ngGrid']);
+var app = angular.module('salesForecaster', ['ngGrid']);
 
 app.controller('appCtrl', ['$scope', function ($scope) {
     $scope.master = {};
@@ -21,7 +21,7 @@ app.utility.isObjectNull = function (obj) {
 
 /*
  (function () {
- var app = angular.module('hackfood', []);
+ var app = angular.module('salesForecaster', []);
 
  app.controller('appCtrl', function () {
  showLoginDiv = function () {

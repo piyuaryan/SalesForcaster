@@ -15,7 +15,7 @@
     <mvc:annotation-driven/>
 
     <!-- Scan classpath for annotations (eg: @Controllers) -->
-    <context:component-scan base-package="au.com.hackfood" use-default-filters="false">
+    <context:component-scan base-package="au.com.salesforecaster" use-default-filters="false">
         <context:include-filter expression="org.springframework.stereotype.Controller" type="annotation"/>
     </context:component-scan>
 

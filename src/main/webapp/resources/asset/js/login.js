@@ -1,4 +1,4 @@
-angular.module('hackfood', []).controller('loginCtrl', function($page) {
+angular.module('salesForecaster', []).controller('loginCtrl', function($page) {
 
 
 });

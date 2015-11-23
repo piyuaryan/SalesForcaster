@@ -6,10 +6,10 @@
  http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
  http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-    <context:property-placeholder location="classpath:hackfood/conf/hackfood.properties"/>
+    <context:property-placeholder location="classpath:salesforecaster/conf/salesforecaster.properties"/>
 
     <!-- Scan classpath for annotations (eg: @Service, @Repository etc) -->
-    <context:component-scan base-package="au.com.hackfood">
+    <context:component-scan base-package="au.com.salesforecaster">
         <context:exclude-filter expression="org.springframework.stereotype.Controller" type="annotation"/>
     </context:component-scan>
 

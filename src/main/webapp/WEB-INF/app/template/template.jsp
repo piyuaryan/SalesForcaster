@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>HackFood</title>
+    <title>SalesForecaster</title>
     <!-- Define Charset -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.debug.js"></script>
 
 </head>
-<body ng-app="hackfood">
+<body ng-app="salesForecaster">
 <!-- Full Body Container -->
 <div id="container">
     <!-- Start Header Section -->

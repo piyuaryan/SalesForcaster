@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="2162740286">
-    <data-source source="LOCAL" name="hackfoodDS" uuid="ee6a0394-910d-440f-aabf-875d8dc4fb67">
+    <data-source source="LOCAL" name="salesForecasterDS" uuid="ee6a0394-910d-440f-aabf-875d8dc4fb67">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/hackfood</jdbc-url>
-      <user-name>hackfood</user-name>
+      <jdbc-url>jdbc:mysql://localhost:3306/salesforecaster</jdbc-url>
+      <user-name>salesforecaster</user-name>
       <user-password>dfc2dfcfdfcbdfc6dfdedfc2dfd9dfdfdfdedfd8dfcb</user-password>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />

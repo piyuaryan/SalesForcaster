@@ -11,7 +11,7 @@
 
               <div class="search-form">
                   <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                      <input type="text" value="" name="s" id="s" placeholder="Search hackfood.com">
+                      <input type="text" value="" name="s" id="s" placeholder="Search salesforecaster.com.au">
                   </form>
               </div>
           </div>

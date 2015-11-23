@@ -28,6 +28,29 @@ app.controller('listCtrl', ['$scope', '$http', function ($scope, $http) {
             });
     };
 
+    $scope.getWeatherInfo = function () {
+
+        $scope.dataLoading = true;
+
+        $http.post('/data/getWeatherInfo')
+            //.success(function (data, status, headers, config) {
+            .success(function (response, status) {
+                if (response.status == "success") {
+                    $scope.listStatus = true; //"Success";
+                    $scope.listStatusMsg = "Done";
+                }
+                else {
+                    $scope.listStatus = false;
+                    $scope.listStatusMsg = "Error: " + status + "-" + response.errorMsg;
+                }
+                $scope.dataLoading = false;
+            })
+            .error(function (response, status) {
+                $scope.listStatus = false;
+                $scope.listStatusMsg = status + " - Couldn't fetch Weather info. Error: " + response.errorMsg;
+                $scope.dataLoading = false;
+            });
+    };
 
     $scope.filterOptions = {
         filterText: "",
