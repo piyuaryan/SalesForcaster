@@ -8,5 +8,6 @@
             <h1>SalesForecaster</h1>
         </section>
 
+        <div id="tree-container"></div>
     </tiles:putAttribute>
 </tiles:insertDefinition>

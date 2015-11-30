@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/asset/css/salesForcaster.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -32,9 +34,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 
-    <link rel="stylesheet" href="    https://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.debug.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
 
 </head>
 <body ng-app="salesForecaster">
@@ -70,4 +74,5 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/asset/js/menu.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/asset/js/upload.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/asset/js/list.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/asset/js/dndTree.js"></script>
 </html>
