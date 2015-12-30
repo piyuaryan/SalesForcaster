@@ -39,7 +39,7 @@ mysql.server start
 mysqladmin -u root password NEWPASSWORD
 
 # Reset Password
-mysqladmin -u root -p'NEWPASSWORD' password Welcome@1
+ mysqladmin -u root -pcurrentpassword password newpassword
 
 #Login: root
 mysql -u root -p
